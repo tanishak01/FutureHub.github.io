@@ -1,0 +1,55 @@
+*{
+font-family: Arial, Comic Sans MS;
+}
+
+body{
+    background-color: #01161E;
+}
+
+.top{
+    text-align: center;
+    margin: 0;
+}
+/*--#sub-title{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0px;
+    position: relative;
+    bottom: -20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}--*/
+#main-title{
+    font-size: 3.34rem;
+    color: red;
+   /* position: relative;--*/
+    top: 30px;
+    padding-top: 0px;
+    padding-bottom: 7px;
+    font-family: Comic Sans MS;
+}
+.menu {
+    width: 100%;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navlinks a:hover {
+    color: red;
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    border-block-color: green;
+}
+.abme{
+    margin: 0px;
+    padding: 0px;
+}
+#start {
+    
+    box-shadow: red;
+    color:white;
+    font-size:18px;
+    font-family: Georgia;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    position: -25px 5px;
+}
+.button {
+  position: relative;
+  
+}
